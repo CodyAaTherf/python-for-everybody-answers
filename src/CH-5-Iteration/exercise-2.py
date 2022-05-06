@@ -9,3 +9,10 @@ numbers = [int(i) for i in n.split(',')]
 
 print(f"Maximum: {max(numbers)}")
 print(f"Minimum: {min(numbers)}")
+
+'''
+Output:
+Enter a list of numbers separated by a comma: 3,4,2,1,6,4,6 
+Maximum: 6
+Minimum: 1
+'''
